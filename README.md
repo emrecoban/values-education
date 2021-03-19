@@ -1,6 +1,8 @@
 # CMS for Values Education
 The project is a Content Management System for Values Education. As a teacher, you can add books and games for primary school students in the project. The students gain score through reading book, and then play games if the student's score is enough for the game.
 
+[Jump to Screenshots Section](#screenshots)
+
 **Membership Types**
 * Admin
 * Teacher

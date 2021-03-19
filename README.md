@@ -112,6 +112,8 @@ The project is a Content Management System for Values Education. As a teacher, y
 ## Screenshots
 ### Login
 ![login1](screenshot/1.png)
+_Credit by Elif Merve KARAMUSTAFA_
+
 ![login2](screenshot/2.png)
 ### Student
 ![student1](screenshot/1_1.png)

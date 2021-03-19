@@ -19,7 +19,7 @@ The project is a Content Management System for Values Education. As a teacher, y
 * Teacher: emrecoban:123456
 * Student: yunusemre:123456
 
-## :tr: Features (Turkish)
+## :tr: Features
 ### Genel Bilgi ve Özellikleri
 * 	Web tabanlı Değerler Eğitimi Sistemi Classic ASP programlama dili ile kodlanmıştır.
 * 	Verilerin depolanması işlemi Microsoft Access veritabanı ile sağlanmıştır.

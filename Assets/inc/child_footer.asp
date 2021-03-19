@@ -1,0 +1,1 @@
+<center><div style="width:980px; height:30px;line-height:30px;background-color:#FFF;">&copy; 2015 - Değerler Eğitimi</div></center>

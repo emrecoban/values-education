@@ -1,0 +1,106 @@
+/*
+@Author: Değerler Eğitimi © 2015
+*/
+@charset "utf-8";
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #00C5E8;
+	background-image: url(../img/top_bg0.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-family: 'open_sansregular', sans-serif;
+	font-size:14px;
+}
+#form {
+	height: 175px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#main {
+	height: 848px;
+	width: 809px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../img/child_login_bg.png);
+	background-position: center top;
+	margin-top: 10px;
+	padding-top: 300px;
+}
+.logininput {
+	background-color: #FFF;
+	line-height: 40px;
+	height: 40px;
+	width: 180px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #C8C8C8;
+	margin-bottom: 2px;
+	font-size: 18px;
+	color: #333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	outline-color:#0C0;
+}
+.loginbuton {
+	background-color: #E772B8;
+	width: 140px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+	height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left:30px;
+	cursor:pointer;
+}
+.AdmTea{
+	color:#FFF;
+	background-color:#EFC84A;
+	line-height:30px;	
+	text-decoration:none;
+	font-size:16px;
+	padding-left:10px;
+	padding-right:10px;
+	float:right;
+}
+#logg {
+	float: right;
+	height: 30px;
+	width: 400px;
+	margin-right:5px;
+	margin-top:5px;
+}
+#loggimg{
+	float:right;
+	background-color:#EFC84A;
+	height:27.5px;
+	padding-top:2.5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.AdmTea:hover{
+	background-color:#ECC02B;
+}

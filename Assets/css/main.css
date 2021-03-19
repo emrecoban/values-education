@@ -1,0 +1,350 @@
+/*
+@Author: Değerler Eğitimi © 2015
+*/
+@charset "utf-8";
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/top_bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	color: #333;
+	font-family: 'open_sansregular', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+#main {
+	background-color: #FFF;
+	height: auto;
+	width: 980px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo {
+	background-color: #FFF;
+	height: 150px;
+	width: 228px;
+	border: 1px solid #333333;
+}
+#sidebarbg {
+	background-color: #333333;
+	height: auto;
+	width: 230px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#userbar {
+	font-size: 16px;
+	line-height: 40px;
+	color: #FFF;
+	background-color: #007DC3;
+	height: 40px;
+	width: 730px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.menubox {
+	height: auto;
+	width: 218px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #666666;
+	margin-bottom: 5px;
+}
+#userbar #userico {
+	float: right;
+	height: 35px;
+	width: 30px;
+	padding-top: 5px;
+}
+.extlink {
+	font-size: 16px;
+	color: #E60000;
+	text-decoration: underline;
+}
+
+#userbar #usertxt {
+	line-height: 40px;
+	float: right;
+	height: 40px;
+	width: auto;
+}
+
+
+
+.menupanel {
+	background-color: #666666;
+	height: 40px;
+	width: 220px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.menutitle {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+	height: 40px;
+	width: 170px;
+	float: left;
+}
+.menu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menu li a {
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #999999;
+	height: 30px;
+	width: 203px;
+	display: block;
+	padding-left: 15px;
+	margin-bottom: 1px;
+}
+.menu li a:hover {
+	color: #FFF;
+	background-color: #CCC;
+}
+
+
+
+.menuicon {
+	text-align: center;
+	float: left;
+	height: 35px;
+	width: 50px;
+	padding-top: 5px;
+}
+
+
+
+
+#sidebar {
+	float: left;
+	height: auto;
+	width: 230px;
+}
+#panel {
+	float: left;
+	height: auto;
+	width: 740px;
+	margin-left: 10px;
+}
+#maincontent {
+	height: auto;
+	width: 718px;
+	border: 1px solid #EE3628;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.contentpanel {
+	height: auto;
+	width: 718px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+.contenttitle {
+	font-size: 16px;
+	line-height: 40px;
+	color: #FFF;
+	background-color: #EE3628;
+	height: 40px;
+	width: 698px;
+	padding-left: 10px;
+	text-align: left;
+	padding-right: 10px;
+}
+.contentbox {
+	padding: 10px;
+	height: auto;
+	width: 696px;
+	border: 1px solid #EE3628;
+	font-size: 12px;
+	color: #333333;
+}
+#clear {
+	clear: left;
+	float: none;
+	width: 980px;
+	margin-bottom: 10px;
+}
+.cleartwo {
+	clear: right;
+	float: none;
+	margin-bottom: 10px;
+}
+#footer {
+	line-height: 50px;
+	background-color: #FFF;
+	background-image: url(../img/footer_bg.png);
+	background-repeat: repeat-x;
+	background-position: left center;
+	height: 50px;
+	width: 980px;
+	text-align: right;
+	margin-bottom: 15px;
+}
+.footertxt {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #333333;
+	margin-right: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.tabletitle {
+	font-weight: bold;
+	color: #FFF;
+	background-color: #007DC3;
+}
+.updatelink {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #F90;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.deletelink {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #F30;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.addlink {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #0C3;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.backlink {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #999;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.formadd {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #0C3;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border:0px;
+	cursor:pointer;
+	height:25px;
+}
+.formtext{
+	background-color: #FFF;
+	line-height: 25px;
+	height: 25px;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #C8C8C8;
+	margin-bottom: 2px;
+	font-size: 12px;
+	color: #333;
+	outline:0;
+}
+.formarea{
+	background-color: #FFF;
+	height: 200px;
+	width: 475px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #C8C8C8;
+	margin-bottom: 2px;
+	font-size: 12px;
+	color: #333;
+	outline:0;
+	font-family:'open_sansregular', sans-serif;
+}
+.tablerow:hover {
+	background-color: #6CF;
+}
+.syf_Suan{
+	font-size:12px;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight:bold;
+	line-height:30px;
+	height:30px;
+}
+.syf_Link{
+	font-size:12px;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight:bold;
+	line-height:30px;
+	height:30px;
+	background-color:#DFF4FF;
+	color:#333;
+	text-decoration:none;
+	border:1px solid #CCC;
+	margin-right:2px;
+}
+.syf_Link:hover{
+	background-color:#FFF;
+}
+.totaltablo {
+	float: right;
+	margin-left: 15px;
+	border: 1px solid #007DC3;
+}
+.totaltitle {
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFF;
+	background-color: #007DC3;
+	height: 30px;
+}
+.titlelink{
+	color: #FFF;
+	text-decoration: none;
+	background-color: #007DC3;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}

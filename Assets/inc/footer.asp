@@ -1,0 +1,1 @@
+<div id="footer"><span class="footertxt">Değerler Eğitimi © 2015</span></div>

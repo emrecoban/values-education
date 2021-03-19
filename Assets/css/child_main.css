@@ -1,0 +1,362 @@
+﻿/*
+@Author: Değerler Eğitimi © 2015
+*/
+@charset "utf-8";
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'luckiest_guyregular';
+    src: url('fonts/LUCKIESTGUY-webfont.eot');
+    src: url('fonts/LUCKIESTGUY-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LUCKIESTGUY-webfont.woff2') format('woff2'),
+         url('fonts/LUCKIESTGUY-webfont.woff') format('woff'),
+         url('fonts/LUCKIESTGUY-webfont.ttf') format('truetype'),
+         url('fonts/LUCKIESTGUY-webfont.svg#luckiest_guyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@-moz-keyframes bookHop {
+    from {margin-top: -130px;}
+    to {margin-top: -139px;}
+}
+@-webkit-keyframes bookHop {
+    from {margin-top: -130px;}
+    100% {margin-top: -139px;}
+}
+@-o-keyframes bookHop {
+    from {margin-top: -130px;}
+    100% {margin-top: -139px;}
+}
+@keyframes .leftinhole {
+	float: none;
+}
+bookHop {
+    from {margin-top: -130px;}
+    100% {margin-top: -139px;}
+}
+.book {
+	display: block;
+	float: left;
+	height: 140px;
+	margin-left: 25px;
+	width: 100px;
+	margin-top: -130px;
+	line-height:160px;
+	background-image: url(../img/kitap_.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position:relative;
+	z-index:1;
+}
+.book:hover{
+	-webkit-animation: bookHop 0.5s infinite; /* Chrome, Safari, Opera */ 
+	-o-animation: bookHop 0.5s infinite;
+	-moz-animation: bookHop 0.5s infinite;
+    animation: bookHop 0.5s infinite;
+	animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-o-animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+}
+.book:hover:before{
+	content:attr(data-tooltip);
+	position:absolute;
+	background-image:url(../img/tooltip.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-color:#333;
+	color:#FFF;
+	font-family: 'open_sansregular';
+	font-size:14px;
+	text-align:center;
+	padding:0px 10px 0px 30px;
+	margin-top:-30px;
+	width:185px;
+	height:30px;
+	line-height:30px;
+	z-index:3;
+}
+
+
+#main {
+	height: 1100px;
+	width: 762px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+body {
+	background-color: #00C5E8;
+	background-image: url(../img/top_bg0.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	font-family:'open_sansregular';
+}
+.fontstyle{
+	color:#333;
+	font-family:'open_sansregular';
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;	
+}
+#cMain {
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+#head {
+	background-image: url(../img/head_bg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	height: 140px;
+	width: 980px;
+}
+#logo {
+	float: left;
+	height: 140px;
+	width: 480px;
+	padding-left: 10px;
+	line-height: 100px;
+}
+#menuTab {
+	background-color: #7D8989;
+	height: 200px;
+	width: 980px;
+	padding-top: 7px;
+}
+#content {
+	background-image: url(../img/content_bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 600px;
+	width: 980px;
+	margin-bottom: 20px;
+}
+#maincont {
+	height: 530px;
+	width: 860px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	position:relative;
+	z-index:1;
+}
+
+/*
+#footer {
+	background-image: url(../img/child_footer_bg0.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	height: 75px;
+	width: 100%;
+	margin-top: 15px;
+}
+*/
+
+.boxMenu {
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+	height: 190px;
+}
+
+
+#exit {
+	float: left;
+	height: 140px;
+	width: 480px;
+	padding-right: 10px;
+	line-height: 100px;
+	text-align:right;
+}
+.logotxt{
+	font-family:'luckiest_guyregular';
+	font-size:41px;
+	color:#FFF;
+}
+.exitlink{
+	font-family:'luckiest_guyregular';
+	font-size:32px;
+	color:#FF612B;
+	font-weight:bold;
+	text-decoration:none;
+}
+.exitlink:hover{color:#FF8F6A;}
+.points{
+	font-family:'luckiest_guyregular';
+	font-size:32px;
+	color:#FFF;
+	margin-right:5px;
+	float:right;
+	line-height:180px;
+}
+#contcenter {
+	height: 520px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+}
+#title {
+	line-height: 40px;
+	height: 40px;
+	width: 900px;
+}
+#titleico {
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	height: 40px;
+	width: 70px;
+}
+#titletxt {
+	font-family:'luckiest_guyregular';
+	font-size: 26px;
+	line-height: 40px;
+	color: #333;
+	float: left;
+	height: 40px;
+	width: 830px;
+}
+.syf_Suan{
+	font-size:12px;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight:bold;
+	line-height:30px;
+	height:30px;
+}
+.syf_Link{
+	font-size:12px;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight:bold;
+	line-height:30px;
+	height:30px;
+	background-color:#DFF4FF;
+	color:#333;
+	text-decoration:none;
+	border:1px solid #CCC;
+	margin-right:2px;
+}
+.syf_Link:hover{
+	background-color:#FFF;
+}
+#quessub{
+	background-image:url(../img/submit_bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 300px;
+	width: 300px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	/*margin-top:110px;*/
+	cursor:pointer;
+	background-color: #FFF;
+}
+.gameBox {
+	background-color: #FFF;
+	float: left;
+	height: 170px;
+	width: 140px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.gameBox p{
+	color:#FFF;
+	text-align:center;
+	margin-top:0px;
+	font-weight:bold;
+}
+.gameBox img{
+	padding:5px;
+}
+.gameBox:hover:before{
+	content:attr(data-tooltip);
+	position:absolute;
+	background-image:url(../img/tooltip.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-color:#333;
+	color:#FFF;
+	font-family: 'open_sansregular';
+	font-size:14px;
+	text-align:center;
+	padding:0px 10px 0px 30px;
+	margin-top:-30px;
+	width:185px;
+	height:30px;
+	line-height:30px;
+	z-index:3;
+}
+.centOrt {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#gameSWF {
+	background-color: #F90;
+	padding: 10px;
+	float: left;
+	height: 430px;
+	width: 640px;
+	text-align:center;
+}
+#gameCont {
+	background-color: #F90;
+	float: left;
+	height: 450px;
+	width: 200px;
+	color:#FFF;
+	text-align:left;
+}
+.formtext{
+	background-color: #FFF;
+	line-height: 25px;
+	height: 25px;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #C8C8C8;
+	margin-bottom: 2px;
+	font-size: 12px;
+	color: #333;
+	outline:0;
+}
+.formadd {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #0C3;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border:0px;
+	cursor:pointer;
+	height:25px;
+}

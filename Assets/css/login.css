@@ -1,0 +1,122 @@
+/*
+@Author: Değerler Eğitimi © 2015
+*/
+@charset "utf-8";
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/top_bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	color: #333;
+	font-family: 'open_sansregular', sans-serif;
+	font-size:14px;
+}
+#loginpanel {
+	height: 450px;
+	width: 366px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+}
+#panel_content {
+	background-color: #FFF;
+	height: 280px;
+	width: 324.2px;
+	border: 1px solid #007DC3;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#panel_foot {
+	line-height: 40px;
+	color: #333;
+	text-align: center;
+	height: 40px;
+	width: 366px;
+}
+.logininput {
+	background-color: #FFF;
+	line-height: 40px;
+	height: 40px;
+	width: 300px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #C8C8C8;
+	margin-bottom: 2px;
+	font-size: 18px;
+	color: #333;
+}
+.loginbuton {
+	background-color: #EE3628;
+	width: 110px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+	height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+
+
+#panel_shadow {
+	background-color: #FFF;
+	background-image: url(../img/panel_shadow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 28px;
+	width: 366px;
+}
+
+
+#panel_logo {
+	border: 1px solid #999999;
+	background-color: #FFF;
+	height: 96px;
+	width: 96px;
+	text-align: center;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: -15px;
+}
+#panel_title {
+	height: 64px;
+	width: 230px;
+	margin-left: 135px;
+	color: #FFF;
+	font-family: 'open_sansregular', sans-serif;
+	font-size: 18px;
+	line-height: 64px;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+#panel_head {
+	background-color: #007DC3;
+	height: 65px;
+	width: 366px;
+}

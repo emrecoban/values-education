@@ -3,20 +3,20 @@ The project is a Content Management System for Values Education. As a teacher, y
 
 [Jump to Screenshots Section](#screenshots)
 
-**Membership Types**
+#### **Membership Types**
 * Admin
 * Teacher
 * Student
 
-**Database**
+#### **Database**
 * Microsoft Access (the folder of `App_Data`)
 
-**Requirements**
+#### **Requirements**
 * IIS Server (32-bit must be true)
 * Read and Write Permissions
 * ASPUpload Component
 
-**Demo Accounts**
+#### **Demo Accounts**
 * Admin: kemalozcan:123456
 * Teacher: emrecoban:123456
 * Student: yunusemre:123456
